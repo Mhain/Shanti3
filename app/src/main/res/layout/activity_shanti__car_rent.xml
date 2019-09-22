@@ -1,0 +1,282 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Shanti_CarRent"
+    android:background="#fff"
+    >
+
+
+    <android.support.v7.widget.CardView
+        android:layout_width="337dp"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_centerHorizontal="true"
+        android:clickable="true"
+        android:focusable="true"
+        app:cardCornerRadius="15dp"
+        >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="10dp">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Pick-up Location" />
+
+            <EditText
+                android:id="@+id/pLoc"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" />
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Drop-off Location" />
+
+            <EditText
+                android:id="@+id/dLoc"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" />
+
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                >
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    >
+                <TextView
+                    android:id="@+id/pickDate"
+                    android:layout_width="110dp"
+                    android:layout_height="50dp"
+                    android:background="@drawable/round_gray_textbox"
+                    android:gravity="center"
+                    android:textColor="#fff"
+                    android:layout_marginStart="15dp"
+                    android:text="Pick-up Date" />
+
+                    <TextView
+                        android:id="@+id/pickTime"
+                        android:layout_width="110dp"
+                        android:layout_height="50dp"
+                        android:background="@drawable/round_gray_textbox"
+                        android:gravity="center"
+                        android:textColor="#fff"
+                        android:layout_marginStart="50dp"
+                        android:text="Pick-up Time"
+                        />
+
+                </LinearLayout>
+                <CheckBox
+                    android:layout_width="100dp"
+                    android:layout_height="50dp"
+                    android:gravity="center"
+                    android:id="@+id/checkbox"
+                    android:text="Round trip"
+                    />
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    >
+                <TextView
+                    android:id="@+id/retDate"
+                    android:layout_width="110dp"
+                    android:layout_height="50dp"
+                    android:background="@drawable/round_gray_textbox"
+                    android:gravity="center"
+                    android:textColor="#fff"
+                    android:layout_marginStart="15dp"
+                    android:text="Return Date" />
+
+                    <TextView
+                        android:id="@+id/retTime"
+                        android:layout_width="110dp"
+                        android:layout_height="50dp"
+                        android:background="@drawable/round_gray_textbox"
+                        android:gravity="center"
+                        android:textColor="#fff"
+                        android:layout_marginStart="50dp"
+                        android:text="Return Time"
+                        />
+
+                </LinearLayout>
+
+
+
+            </LinearLayout>
+
+
+
+             <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_margin="10dp"
+                >
+
+
+
+                 <android.support.v7.widget.CardView
+                     android:layout_height="100dp"
+                     android:layout_width="100dp"
+                     android:foreground="?android:attr/selectableItemBackground"
+                     android:clickable="true"
+                     android:focusable="true"
+                     android:onClick="car"
+                     >
+
+
+                     <ImageView
+                         android:layout_gravity="center"
+                         android:layout_width="70dp"
+                         android:layout_height="70dp"
+                         android:padding="10dp"
+                         android:src="@drawable/car1"
+                         android:id="@+id/car1"
+                         />
+                     <ImageView
+                         android:layout_gravity="center"
+                         android:layout_width="70dp"
+                         android:layout_height="70dp"
+                         android:padding="10dp"
+                         android:src="@drawable/car2"
+                         android:id="@+id/car2"
+                         />
+                     <TextView
+                         android:layout_width="wrap_content"
+                         android:layout_height="wrap_content"
+                         android:textStyle="bold"
+                         android:layout_marginStart="40dp"
+                         android:layout_marginTop="70dp"
+                         android:text="Car"
+
+                         />
+
+                 </android.support.v7.widget.CardView>
+
+
+
+                 <android.support.v7.widget.CardView
+                     android:layout_height="100dp"
+                     android:layout_width="100dp"
+                     android:foreground="?android:attr/selectableItemBackground"
+                     android:clickable="true"
+                     android:focusable="true"
+                     android:layout_gravity="center"
+                     android:onClick="noah"
+                     >
+
+
+                     <ImageView
+                         android:layout_gravity="center"
+                         android:layout_width="70dp"
+                         android:layout_height="70dp"
+                         android:padding="10dp"
+                         android:src="@drawable/noah1"
+                         android:id="@+id/noah1"
+                         />
+                     <ImageView
+                         android:layout_gravity="center"
+                         android:layout_width="70dp"
+                         android:layout_height="70dp"
+                         android:padding="10dp"
+                         android:src="@drawable/noah2"
+                         android:id="@+id/noah2"
+                         />
+                     <TextView
+                         android:layout_width="wrap_content"
+                         android:layout_height="wrap_content"
+                         android:textStyle="bold"
+                         android:layout_marginStart="35dp"
+                         android:layout_marginTop="70dp"
+                         android:text="Noah"
+
+                         />
+
+                 </android.support.v7.widget.CardView>
+
+
+
+
+
+                 <android.support.v7.widget.CardView
+                     android:layout_height="100dp"
+                     android:layout_width="100dp"
+                     android:foreground="?android:attr/selectableItemBackground"
+                     android:clickable="true"
+                     android:focusable="true"
+                     android:layout_gravity="center"
+                     android:onClick="hiace"
+                     >
+
+
+                         <ImageView
+                             android:layout_gravity="center"
+                             android:layout_width="70dp"
+                             android:layout_height="70dp"
+                             android:padding="10dp"
+                             android:src="@drawable/hi_ace1"
+                             android:id="@+id/hiace1"
+                             />
+                         <ImageView
+                             android:layout_gravity="center"
+                             android:layout_width="70dp"
+                             android:layout_height="70dp"
+                             android:padding="10dp"
+                             android:src="@drawable/hi_ace2"
+                             android:id="@+id/hiace2"
+                             />
+                         <TextView
+                             android:layout_width="wrap_content"
+                             android:layout_height="wrap_content"
+                             android:textStyle="bold"
+                             android:layout_marginStart="30dp"
+                             android:layout_marginTop="70dp"
+                             android:text="Hi-ace"
+
+                             />
+
+                 </android.support.v7.widget.CardView>
+
+
+
+             </LinearLayout>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/red"
+                android:id="@+id/alrt"
+                android:gravity="center"
+                />
+
+
+            <Button
+                android:id="@+id/cfb"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_gravity="center"
+                android:layout_marginTop="10dp"
+                android:text="Book NOW"
+                android:textColor="#fff"
+                android:background="@drawable/round_gray_textbox"
+                />
+
+        </LinearLayout>
+
+
+    </android.support.v7.widget.CardView>
+</RelativeLayout>

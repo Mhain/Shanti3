@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "561568728372",
+    "firebase_url": "https://shantijatra-d3523.firebaseio.com",
+    "project_id": "shantijatra-d3523",
+    "storage_bucket": "shantijatra-d3523.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:561568728372:android:71e885b2497b04a8",
+        "android_client_info": {
+          "package_name": "com.example.mhainulhoque.shanti3"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "561568728372-l4r8qdon0p0dvq2q92v9gh0t2if5d4uf.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.mhainulhoque.shanti3",
+            "certificate_hash": "1fde8c725afc43b44dd6428767eb682b7a9526b8"
+          }
+        },
+        {
+          "client_id": "561568728372-c6fq67j1nqgfsh52atj4c6fa46l0tunf.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAMgS_m8TJMueS9jSHoLeTuyEBHInzuWJI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "561568728372-c6fq67j1nqgfsh52atj4c6fa46l0tunf.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

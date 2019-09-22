@@ -1,0 +1,39 @@
+<resources>
+    <string name="app_name">ShantiJatra</string>
+    <string name="title_activity_main2">Main2Activity</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Shanti</string>
+    <string name="nav_header_subtitle">Travel Guid</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+    <string name="bus_train_info">Bus &amp; train transport info</string>
+    <string name="Hotel_name_info">Hotel Name &amp; Number</string>
+    <string name="Food_drink">Food &amp; Drinks</string>
+    <string name="Weather_info">Weather Info</string>
+    <string name="Day_plan">Day Plan</string>
+    <string name="Things_to_do">Things To Do</string>
+    <string name="About_loc">Location Details</string>
+    <string name="Sign_up">Sign Up</string>
+    <string name="Name_input">  Enter Your Name</string>
+    <string name="Number_input">  Enter Your Number</string>
+    <string name="pass_input">  Enter Password</string>
+    <string name="con_pass_input">  Confirm Your Password</string>
+    <string name="singin_text">Are you registered?</string>
+    <string name="currency">Currency Converter</string>
+    <string name="Emergency">Emergency Helpline</string>
+    <string name="profile">Profile</string>
+    <string name="treatment">Primary Treatment</string>
+    <string name="starting_logo">Logo</string>
+    <string name="slide_image">Image</string>
+    <string name="Input_email">   Enter Email Address</string>
+    <string name="here">Click Here for Sign In.</string>
+    <string name="froget_pass">Forgot password</string>
+    <string name="register">Do not have account yet?  REGISTER</string>
+    <string name="Open">NavBar</string>
+    <string name="Close">NavBar</string>
+
+    <string name="Search">Search Location</string>
+    <string name="ToDo">ToDo</string>
+    <string name="Shanti_carRent">Shanti Car Rent</string>
+</resources>
